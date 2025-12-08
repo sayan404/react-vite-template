@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import avatarImage from "./assets/test.png";
+import avatarImage from "./assets/test.webp";
 import downloaderGif from "./assets/downloader.gif";
 
 function App() {
@@ -8,7 +8,16 @@ function App() {
 
   return (
     <>
-      <div style={{ display: "flex", gap: "2rem", justifyContent: "center", alignItems: "center", flexWrap: "wrap", margin: "2rem 0" }}>
+      <div
+        style={{
+          display: "flex",
+          gap: "2rem",
+          justifyContent: "center",
+          alignItems: "center",
+          flexWrap: "wrap",
+          margin: "2rem 0",
+        }}
+      >
         <div className="avatar-container">
           <img
             src={avatarImage}
