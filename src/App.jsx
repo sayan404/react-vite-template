@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import avatarImage from "./assets/test.webp";
+import avatarImage from "./assets/test.avif";
 import downloaderGif from "./assets/downloader.gif";
 
 function App() {
